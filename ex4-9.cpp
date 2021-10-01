@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -46,3 +47,4 @@ int main() {
   }
   delete [] pArray; // 객체 배열 소멸. 각 배열 원소 객체의 소멸자 ~Circle() 실행
 }
+*/

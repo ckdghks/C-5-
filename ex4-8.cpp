@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -40,3 +41,4 @@ int main() {
     delete p; // 객체 반환, delete 문이 없다면 메모리 누수 발생!!
   }
 }
+*/

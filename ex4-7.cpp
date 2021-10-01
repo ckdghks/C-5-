@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -38,3 +39,4 @@ int main() {
   delete q;
   // 생성한 순서에 관계 없이 원하는 순서대로 delete 할 수 있음
 }
+*/

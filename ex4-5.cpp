@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -17,3 +18,4 @@ int main() {
 
   delete p; // 할당 받은 메모리 반환
 }
+*/

@@ -5,17 +5,17 @@ using namespace std;
 class Circle {
   int radius;
   public:
-    void setRadius(int r);
+    void setRadius(int radius);
     double getArea();
 };
-
-void Circle::setRadius(int r){
-  radius= r;
+void Circle::setRadius(int radius){
+  this -> radius = radius;
 }
 double Circle::getArea() {
   double sum = 3.14*radius*radius;
   return sum;
 }
+
 int main() {
   Circle c[COLS];
   int tmp, index = 0;

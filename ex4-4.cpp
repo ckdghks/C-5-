@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -21,14 +22,18 @@ double Circle::getArea() {
 }
 
 int main() {
-  Circle circleArray[2][3];
+  Circle circleArray[2][3] = { Circle(1), Circle(2),
+                               Circle(3), Circle(4),
+                               Circle(5), Circle(6) };
 
-  circleArray[0][0].setRadius(1);
-  circleArray[0][1].setRadius(2);
-  circleArray[0][2].setRadius(3);
-  circleArray[1][0].setRadius(4);
-  circleArray[1][1].setRadius(5);
-  circleArray[1][2].setRadius(6);
+  
+  //circleArray[0][0].setRadius(1);
+  //circleArray[0][1].setRadius(2);
+  //circleArray[0][2].setRadius(3);
+  //circleArray[1][0].setRadius(4);
+  //circleArray[1][1].setRadius(5);
+  //circleArray[1][2].setRadius(6);
+  
 
   for(int i=0; i<2; i++) {
     for(int j=0; j<3; j++) {
@@ -38,3 +43,4 @@ int main() {
   }
    
 }
+*/

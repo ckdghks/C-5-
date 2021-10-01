@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -34,3 +35,4 @@ int main() {
   cout << p->getArea() << endl; // pizza의 getArea() 호출
   cout << (*p).getArea() << endl; // pizza의 getArea() 호출
 }
+*/

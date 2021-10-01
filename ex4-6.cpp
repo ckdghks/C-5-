@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -25,3 +26,4 @@ int main() {
 
   delete [] p;  // 배열 메모리 반환
 }
+*/

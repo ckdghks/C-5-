@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -27,3 +28,4 @@ int main() {
     cout << "Circle " << i << "의 면적은 " << circleArray[i].getArea() << endl;
 
 }
+*/

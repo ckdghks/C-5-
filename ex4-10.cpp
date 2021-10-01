@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -41,3 +42,4 @@ int main() {
   cout << endl << "면적이 100에서 200 사이인 원의 개수는 " << count << endl;
   delete [] pArray; // 객체 배열 소멸
 }
+*/

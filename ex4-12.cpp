@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <string>
 using namespace std;
@@ -18,3 +19,4 @@ int main() {
   }
   cout << "사전에서 가장 뒤에 나오는 문자열은 " << latter << endl;
 }
+*/
