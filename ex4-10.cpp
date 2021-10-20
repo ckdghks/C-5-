@@ -34,7 +34,7 @@ int main() {
   int count = 0;  // 카운트 변수
   Circle* p = pArray;
   for(int i=0; i<n; i++) {
-    cout << p->getArea() << ' ';  // 원의 면적 출력\
+    cout << p->getArea() << ' ';  // 원의 면적 출력
     if(p->getArea() >= 100 && p->getArea() <= 200)
       count++;
     p++;

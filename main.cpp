@@ -1,32 +1,19 @@
 #include <iostream>
-#define COLS 3
+#include <string>
 using namespace std;
 
-class Circle {
-  int radius;
-  public:
-    void setRadius(int radius);
-    double getArea();
-};
-void Circle::setRadius(int radius){
-  this -> radius = radius;
-}
-double Circle::getArea() {
-  double sum = 3.14*radius*radius;
-  return sum;
-}
-
 int main() {
-  Circle c[COLS];
-  int tmp, index = 0;
+  // 스트림 생성
+  string str; // 빈 문자열 을 가진 스트림 객체 생성
+  string address(" 대전시 유성구 동서대로 125");
+  string copyAddress(address);  // address의 문자열을 복사한 스트링 객체 생성
 
-  for(int i=0; i<COLS; i++) {
-    cout << "원 " << i+1 << "의 반지름 >> ";
-    cin >> tmp;
-    c[i].setRadius(tmp);
-    cout << " 면적은 " << c[i].getArea() << endl;
-    if(c[i].getArea() > 100) 
-      index++;
-  }
-  cout << "면적이 100보다 큰 원은 " << index << "개 입니다.";
+  char text[] = {'L', 'o', 'v', 'e', ' ', 'C', '+', '+', '\0'}; // C-스트림
+  string title(text); // "Love C++" 문자열을 가진 스트링 객체 생성
+
+  // 스트링 출력
+  cout << str << endl;  // 빈 스트링. 아무 값도 출력되지 않음
+  cout << address << endl;
+  cout << copyAddress << endl;
+  cout << title << endl;
 }
